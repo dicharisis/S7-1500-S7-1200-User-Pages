@@ -1,0 +1,45 @@
+
+html, body {
+  height:100%;
+
+}
+
+h1,h3{
+  padding-top: 10%;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+
+  }
+body{
+  background-color: #4e4e4e;
+}
+.circles{
+  width:50px;
+  height: 50px;
+  background-color: grey;
+
+  border-radius: 50px;
+  margin-right: 10px;
+
+}
+.col-of-row{
+  padding-left: 2%;
+
+}
+#head{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#menu{
+
+  text-align: center;
+  padding-left: 43%;
+  padding-top: 2%;
+
+}
+
+#add{
+    text-align: center;
+    padding-bottom: 2%;
+}

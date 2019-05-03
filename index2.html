@@ -1,0 +1,203 @@
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link rel="stylesheet" href="view.css" />
+
+    <title>
+        S7-1500 WEB SERVER
+    </title>
+  </head>
+
+ <body>
+   <!-- Variables Declaration -->
+
+
+
+
+ <div class="container-fluid" id="head" >
+
+
+<!--NavBar-->
+  <div class="pos-f-t">
+
+    <div class="collapse" id="navbarToggleExternalContent" role="navigation">
+       <div class="bg-dark p-4">
+         <h5 class="text-white h4">Developed by Charisis Dimitris</h5>
+        <span class="text-muted">A custom Web-Page for your S7-1500</span>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark" role="navigation">
+      <button class="navbar-toggler" id="home" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+
+    </div>
+  </div>
+<!--NavBar-->
+
+<!--Menu-->
+<div class="btn-group" id="menu">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+    Choose what you want to see
+  </button>
+  <div class="dropdown-menu dropdown-menu-lg-right">
+
+      <button id="in-btn" class="dropdown-item" type="submit"  >Inputs</button>
+      <button id="out-btn" class="dropdown-item" type="submit" >Outputs</button>
+      <button id="mem-btn" class="dropdown-item" type="submit" >Memory</button>
+
+  </div>
+</div>
+<!--Menu-->
+
+<!--Inputs,Outputs-->
+ <div class="container-fluid" id="main" >
+
+<div class="row" >
+
+
+  <div class="container-fluid">
+     <h1 id="bd-header"></h1>
+  </div>
+
+
+  <div class="col" id="column-0">
+
+      <h3 id="col-0-hd"></h3>
+      <button  type="button" class="btn btn-primary" id="btn-0-s">S</button>
+      <button  type="button" class="btn btn-primary" id="btn-0-r">R</button>
+      <div id="circle-0" class="circles "></div>
+
+
+  </div>
+
+  <div class="col" id="column-1">
+    <form  method="post">
+      <h3 id="col-1-hd"></h3>
+      <button  type="button" class="btn btn-primary" id="btn-1-s" >S</button>
+      <button  type="button" class="btn btn-primary" id="btn-1-r" >R</button>
+      <div id="circle-1" class="circles "></div>
+    </form>
+  </div>
+
+  <div class="col" id="column2">
+    <form  method="post">
+      <h3 id="col-2-hd"></h3>
+      <button  type="button" class="btn btn-primary" id="btn-2-s">S</button>
+      <button  type="button" class="btn btn-primary" id="btn-2-r">R</button>
+      <div id="circle-2" class="circles "></div>
+    </form>
+  </div>
+
+  <div class="col" id="column-3">
+    <form  method="post">
+      <h3 id="col-3-hd"></h3>
+      <button  type="button" class="btn btn-primary" id="btn-3-s">S</button>
+      <button  type="button" class="btn btn-primary" id="btn-3-r">R</button>
+      <div id="circle-3" class="circles "></div>
+    </form>
+  </div>
+
+
+  <div class="col" id="column-4">
+    <form  method="post">
+      <h3 id="col-4-hd"></h3>
+      <button  type="button" class="btn btn-primary" id="btn-4-s">S</button>
+      <button  type="button" class="btn btn-primary" id="btn-4-r">R</button>
+      <div id="circle-4" class="circles "></div>
+    </form>
+  </div>
+
+  <div class="col" id="column-5">
+    <form  method="post">
+      <h3 id="col-5-hd"></h3>
+      <button  type="button" class="btn btn-primary" id="btn-5-s">S</button>
+      <button  type="button" class="btn btn-primary" id="btn-5-r">R</button>
+      <div id="circle-5" class="circles "></div>
+    </form>
+  </div>
+
+  <div class="col" id="column-6">
+    <form  method="post">
+      <h3 id="col-6-hd"></h3>
+      <button  type="button" class="btn btn-primary" id="btn-6-s">S</button>
+      <button  type="button" class="btn btn-primary" id="btn-6-r">R</button>
+      <div id="circle-6" class="circles "></div>
+    </form>
+  </div>
+
+  <div class="col" id="column-7">
+    <form  method="post">
+      <h3 id="col-7-hd"></h3>
+      <button  type="button" class="btn btn-primary" id="btn-7-s">S</button>
+      <button  type="button" class="btn btn-primary" id="btn-7-r">R</button>
+      <div id="circle-7" class="circles "></div>
+    </form>
+  </div>
+
+</div>
+
+
+
+
+</div>
+<!--Inputs,Outputs-->
+
+
+<!--Memory-->
+
+<div class="container-fluid " id="main2">
+
+  <div class="row" id="mem-row" >
+
+
+    <div class="container-fluid">
+       <h1 id="bd-header2"></h1>
+    </div>
+
+    <div class="container-fluid">
+      <div class="dropdown" id="add">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           +
+        </button>
+       <div class="dropdown-menu" id="add" aria-labelledby="dropdownMenu2">
+         <button class="dropdown-item" type="button" id="add-db">DB</button>
+         <button class="dropdown-item" type="button" id="add-mem">Tags</button>
+       </div>
+      </div>
+    </div>
+
+</div>
+
+
+
+
+<!--Dynamic content is inserted here through dynamic.js script-->
+
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+<!--Memory-->
+
+<!-- <button id="testbt" type="button" name="button">kkk</button> -->
+
+  <script src="dynamic.js"></script>
+ </body>
+
+
+</html>

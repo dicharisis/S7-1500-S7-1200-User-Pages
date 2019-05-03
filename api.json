@@ -1,0 +1,108 @@
+<!-- AWP_In_Variable Name="Out0" -->
+<!-- AWP_In_Variable Name="Out1" -->
+<!-- AWP_In_Variable Name="Out2" -->
+<!-- AWP_In_Variable Name="Out3" -->
+<!-- AWP_In_Variable Name="Out4" -->
+<!-- AWP_In_Variable Name="Out5" -->
+<!-- AWP_In_Variable Name="Out6" -->
+<!-- AWP_In_Variable Name="Out7" -->
+<!-- AWP_In_Variable Name='"DB1".bit0'-->
+<!-- AWP_In_Variable Name='"DB1".bit1' -->
+<!-- AWP_In_Variable Name='"DB1".bit2' -->
+<!-- AWP_In_Variable Name='"DB1".bit3' -->
+<!-- AWP_In_Variable Name='"DB1".bit4' -->
+<!-- AWP_In_Variable Name='"DB1".bit5' -->
+<!-- AWP_In_Variable Name='"DB1".bit6' -->
+<!-- AWP_In_Variable Name='"DB1".bit7' -->
+<!-- AWP_In_Variable Name='"DB1".bit8' -->
+<!-- AWP_In_Variable Name='"DB1".bit9' -->
+<!-- AWP_In_Variable Name='"DB1".bit10' -->
+<!-- AWP_In_Variable Name='"DB1".bit11' -->
+<!-- AWP_In_Variable Name='"DB1".bit12' -->
+<!-- AWP_In_Variable Name='"DB1".bit13' -->
+<!-- AWP_In_Variable Name='"DB1".bit14' -->
+<!-- AWP_In_Variable Name='"DB1".bit15' -->
+<!-- AWP_In_Variable Name='"DB1".num0'-->
+<!-- AWP_In_Variable Name='"DB1".num1' -->
+<!-- AWP_In_Variable Name='"DB1".num2' -->
+<!-- AWP_In_Variable Name='"DB1".num3' -->
+<!-- AWP_In_Variable Name='"DB1".num4' -->
+<!-- AWP_In_Variable Name='"DB1".num5' -->
+<!-- AWP_In_Variable Name='"DB1".num6' -->
+<!-- AWP_In_Variable Name='"DB1".num7' -->
+<!-- AWP_In_Variable Name='"DB1".num8' -->
+<!-- AWP_In_Variable Name='"DB1".num9' -->
+<!-- AWP_In_Variable Name='"DB1".num10' -->
+<!-- AWP_In_Variable Name='"DB1".num11' -->
+<!-- AWP_In_Variable Name='"DB1".num12' -->
+<!-- AWP_In_Variable Name='"DB1".num13' -->
+<!-- AWP_In_Variable Name='"DB1".num14' -->
+<!-- AWP_In_Variable Name='"DB1".num15' -->
+<!-- AWP_In_Variable Name="test" -->
+<!-- AWP_In_Variable Name="test1" -->
+
+
+[           {"IN0"::="In0":,
+             "IN1"::="In1":,
+             "IN2"::="In2":,
+             "IN3"::="In3":,
+             "IN4"::="In4":,
+             "IN5"::="In5":,
+             "IN6"::="In6":,
+             "IN7"::="In7":
+           },
+
+
+
+             {"OUT0"::="Out0":,
+              "OUT1"::="Out1":,
+              "OUT2"::="Out2":,
+              "OUT3"::="Out3":,
+              "OUT4"::="Out4":,
+              "OUT5"::="Out5":,
+              "OUT6"::="Out6":,
+              "OUT7"::="Out7":
+        },
+
+        {
+          "DB1.num0"::="DB1".num0:,
+          "DB1.num1"::="DB1".num1:,
+          "DB1.num2"::="DB1".num2:,
+          "DB1.num3"::="DB1".num3:,
+          "DB1.num4"::="DB1".num4:,
+          "DB1.num5"::="DB1".num5:,
+          "DB1.num6"::="DB1".num6:,
+          "DB1.num7"::="DB1".num7:,
+          "DB1.num8"::="DB1".num8:,
+          "DB1.num9"::="DB1".num9:,
+          "DB1.num10"::="DB1".num10:,
+          "DB1.num11"::="DB1".num11:,
+          "DB1.num12"::="DB1".num12:,
+          "DB1.num13"::="DB1".num13:,
+          "DB1.num14"::="DB1".num14:,
+          "DB1.num15"::="DB1".num15:,
+          "DB1.bit0"::="DB1".bit0:,
+          "DB1.bit1"::="DB1".bit1:,
+          "DB1.bit2"::="DB1".bit2:,
+          "DB1.bit3"::="DB1".bit3:,
+          "DB1.bit4"::="DB1".bit4:,
+          "DB1.bit5"::="DB1".bit5:,
+          "DB1.bit6"::="DB1".bit6:,
+          "DB1.bit7"::="DB1".bit7:,
+          "DB1.bit8"::="DB1".bit8:,
+          "DB1.bit9"::="DB1".bit9:,
+          "DB1.bit10"::="DB1".bit10:,
+          "DB1.bit11"::="DB1".bit11:,
+          "DB1.bit12"::="DB1".bit12:,
+          "DB1.bit13"::="DB1".bit13:,
+          "DB1.bit14"::="DB1".bit14:,
+          "DB1.bit15"::="DB1".bit15:
+
+
+        },
+        {
+          "test"::="test":,
+          "test1"::="test1":
+        }
+
+]
